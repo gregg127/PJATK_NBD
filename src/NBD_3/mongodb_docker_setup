@@ -1,0 +1,4 @@
+1. Pobierz docker z mongo - docker pull mongo
+2. Uruchom kontener mongo - docker run --name mongo -d mongo
+3. Skopiuj plik bazy do kontenera - docker cp cwiczenia2.json mongo:/
+4. Dostań się do kontenera - docker exec -it mongo bash
