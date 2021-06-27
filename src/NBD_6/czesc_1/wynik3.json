@@ -1,0 +1,36 @@
+﻿[
+  {
+    "rels": [
+      {
+        "identity": 28,
+        "start": 1,
+        "end": 3,
+        "type": "twowheeler",
+        "properties": {
+"name": "Darjeeling -> Sandakphu",
+"winter": "true",
+"distance": 9,
+"summer": "true"
+        }
+      }
+    ],
+    "dist": 9
+  },
+  {
+    "rels": [
+      {
+        "identity": 27,
+        "start": 1,
+        "end": 3,
+        "type": "twowheeler",
+        "properties": {
+"name": "Darjeeling -> Sandakphu",
+"winter": "true",
+"distance": 10,
+"summer": "true"
+        }
+      }
+    ],
+    "dist": 10
+  }
+]

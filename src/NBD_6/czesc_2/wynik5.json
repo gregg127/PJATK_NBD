@@ -1,0 +1,156 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"end": {
+"identity": 70,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "DAY"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          },
+          "relationship": {
+"identity": 1525,
+"start": 1318,
+"end": 5,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1318,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "01/02/2021 06:06:06",
+"duration": 400,
+"distance": 2000,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1318,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "01/02/2021 06:06:06",
+"duration": 400,
+"distance": 2000,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 1526,
+"start": 1318,
+"end": 66,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 66,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAR"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 66,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "FAR"
+            }
+          },
+          "relationship": {
+"identity": 1520,
+"start": 1287,
+"end": 66,
+"type": "ORIGIN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1287,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "01/01/2021 06:06:06",
+"duration": 100,
+"distance": 500,
+"airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 1287,
+"labels": [
+              "Flight"
+            ],
+"properties": {
+"date": "01/01/2021 06:06:06",
+"duration": 100,
+"distance": 500,
+"airline": "19977"
+            }
+          },
+          "relationship": {
+"identity": 1521,
+"start": 1287,
+"end": 70,
+"type": "DESTINATION",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 70,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "DAY"
+            }
+          }
+        }
+      ],
+"length": 4.0
+    },
+    "totalPrice": 1700
+  }
+]
