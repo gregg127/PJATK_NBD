@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvnfcWCMNEUpkzGNleNIVdIsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s15045>; rel="up"
+Last-Modified: Thu, 01 Jul 2021 18:52:20 GMT
+ETag: "4ZZSQyANPv2eQJD05TDQEY"
+Date: Thu, 01 Jul 2021 18:57:50 GMT
+Content-Type: application/json
+Content-Length: 72
+
+{"name": "Witcher 2", "price": 140, "pegi_code": "+18", "has_dlc": true}

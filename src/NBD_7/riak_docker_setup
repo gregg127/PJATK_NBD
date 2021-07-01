@@ -1,0 +1,3 @@
+docker run --name=riak -d -p 8087:8087 -p 8098:8098 --label cluster.name=adhoc basho/riak-kv:ubuntu-2.1.4
+
+http://localhost:8098/admin/

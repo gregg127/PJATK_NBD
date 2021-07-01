@@ -1,0 +1,55 @@
+# Task 1
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Witcher 3", "price": 180, "pegi_code": "+18", "has_dlc": true}' \
+http://localhost:8098/buckets/s15045/keys/witcher3
+
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Witcher 2", "price": 140, "pegi_code": "+18", "has_dlc": true}' \
+http://localhost:8098/buckets/s15045/keys/witcher2
+
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Witcher 1", "price": 80, "pegi_code": "+16", "has_dlc": false}' \
+http://localhost:8098/buckets/s15045/keys/witcher1
+
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Cyberpunk 2077", "price": 220, "pegi_code": "+18", "has_dlc": false}' \
+http://localhost:8098/buckets/s15045/keys/cyberpunk
+
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Disney Pixar Cars", "price": 100, "pegi_code": "+6", "has_dlc": false}' \
+http://localhost:8098/buckets/s15045/keys/cars
+
+# Task 2
+curl -i http://localhost:8098/buckets/s15045/keys/witcher2
+
+# Task 3
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Disney Pixar Cars", "price": 100, "pegi_code": "+6", "has_dlc": false, "metacritic_rating": 75.5}' \
+http://localhost:8098/buckets/s15045/keys/cars
+
+# Task 4
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Witcher 1", "price": 80, "pegi_code": "+16"}' \
+http://localhost:8098/buckets/s15045/keys/witcher1
+
+# Task 5
+curl -i -XPUT -H "Content-Type: application/json" \
+-d '{"name": "Cyberpunk 2077", "price": 260, "pegi_code": "+18", "has_dlc": false}' \
+http://localhost:8098/buckets/s15045/keys/cyberpunk
+
+# Task 6
+curl -i -XDELETE http://localhost:8098/buckets/s15045/keys/witcher3
+
+# Task 7
+curl -i http://localhost:8098/buckets/s15045/keys/witcher3
+
+# Task 8
+curl -i -XPOST -H "Content-Type: application/json" \
+-d '{"test": "no key test"}' \
+http://localhost:8098/buckets/s15045/keys
+
+# Task 9
+curl -i http://localhost:8098/buckets/s15045/keys/Ek4m8Ak9WdxLXTYAnGW3dOdhDsY
+
+# Task 10
+curl -i -XDELETE http://localhost:8098/buckets/s15045/keys/Ek4m8Ak9WdxLXTYAnGW3dOdhDsY
