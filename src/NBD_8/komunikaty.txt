@@ -1,0 +1,8 @@
+Inserted value: {'name': 'Witcher 3', 'price': 160, 'has_dlc': True} with key: "witcher". Response code: 204
+Fetched document: {'name': 'Witcher 3', 'price': 160, 'has_dlc': True}. Response code: 200
+
+Updated value: {'name': 'Witcher 3', 'price': 220, 'has_dlc': True} with key: "witcher". Response code: 204
+Fetched updated document: {'name': 'Witcher 3', 'price': 220, 'has_dlc': True}. Response code: 200
+
+Deleted by key: "witcher". Response code: 204
+Fetched deleted document: None. Response code: 404
